@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* *******************************
+stylování hlavičky, menu, loga 
+**********************************/
+body > header {
+    display:flex;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 100%;
+    background: #3a3b3b;
+    color: white;
+}
+
+body {
+    font: 1rem "Helvetica Neue";
+    background: #ffffff;
+    color: black;    
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40px;
+    margin: auto 0 auto 20px;
+    background: url('obrazky/opt_family-gb4f2b7303_640.png') no-repeat;
+}
+
+#logo > * {
+    margin: 0 0 0 100px;
+}
+
+#logo h1 {
+    font-weight: normal;
+    font-size: 1,2rem;
+    line-height: 1,2rem;
+    color: white;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type:none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    padding: 0 25px;
+    margin: 0 5px;
+    font-size: 1rem;
+    line-height: 4.3rem;
+}
+
+nav ul a {
+    color: white;
+    padding: 8px 0;
+    text-decoration: none;
+}
+
+nav ul a:hover, .aktivni a {
+    border-bottom: 2px solid #34ef56
+}
+
+/*********************************************
+stylování articlu, tabulky, seznamu pojištěnců 
+*********************************************/
+
+article {
+    padding: 50px 50px 10px 50px; 
+    margin: 50px 50px 10px 50px;
+}
+
+h2 {
+    margin-bottom: 0.7rem;
+    font-size: 1.6rem;
+}
+
+p {
+    margin-bottom: 6rem;
+    font-size: 1rem;
+}
+
+
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 25rem;
+    padding: 10px;
+    text-align: left; 
+}
+
+input[type="text"]{
+    width: 25%;
+    padding: 0.35rem;
+}
+
+.wrapper{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; 
+}
+
+
+.wrapper input{
+    width: 70%;
+    text-align: left;
+    margin: 10 auto 10 auto;
+}
+
+.leave-message{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 6rem;
+}
+
+.wrapper-all{
+    width: 80%;
+    display: flex;
+    justify-content:centrum;
+    gap:5rem;
+    margin-bottom: 1rem;
+}
+
+.alone{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+    
+
+/************************************************
+stylování tlačítko - uložit
+*************************************************/
+
+
+#submit {
+    text-align: center;
+    background: rgb(0, 145, 255);
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/********************************
+******* stylování patičky ********
+********************************/
+
+footer {
+        display: block;
+        text-align: center;
+        height: 100px;
+        color: white;
+        background: #3a3b3b;
+        padding: 40px 0 0 0;
+        margin-top: 20px;
+        /* clip-path: polygon(0 20px, 100% 0, 100% 105%, 0 105%); */
+}
+
+footer a {
+        color: white;
+        /* text-decoration: none; */
+}
+
+
+html {
+    background: white;
+}
+

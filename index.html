@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Pojištěnci</title>
+    </head>
+
+    <body>
+        <header>
+
+            <div id="logo">
+                <h1><span>PojištěníApp</span></h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li class="aktivni"><a href="index.html">Pojištěnci</a></li>
+                    <li><a href="Oaplikace.html">O aplikaci</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <article>
+
+            <header>
+                <h2>Pojištěnci</h2>
+            </header>
+
+            <section class="main-content container" >
+
+                <table border="1" >
+
+                    <tr>
+                        <th>Jméno a příjmení</th>
+                        <th>Telefon</th>
+                        <th>Věk</th>
+                    </tr>
+                    
+                </table>
+
+            </section>
+
+        </article>
+
+        <article>
+            
+            <section class="leave-message container">
+
+                <div>
+                    <header>
+                        <h2>Nový pojištěnec</h2>
+                        <img src="./obrazky/avatar-woman.png" width="100px">
+                    </header>
+                </div>
+                
+
+                <form>
+                    
+                    <div class="wrapper-all">
+
+                        <div class="wrapper">
+                            <label _msttexthash="75504" _msthash="5">Jméno</label>
+                            <input id="jmeno" type="text" placeholder="Hanka" _mstplaceholder="51168" _msthash="4"> 
+                        </div>
+
+                        <div class="wrapper">
+                            <label _msttexthash="177736" _msthash="7">Příjmení</label>
+                            <br/>
+                            <input id="prijmeni" type="text" placeholder="Blatná" _mstplaceholder="76999" _msthash="4"> 
+                        </div>
+
+                    </div>
+                    
+                    
+                    <div class="wrapper-all">
+
+                        <div class="wrapper">
+                            <label _msttexthash="75504" _msthash="5">Věk</label>
+                            <br/>
+                            <input id="vek" type="text" placeholder="42" _mstplaceholder="51168" _msthash="4"> 
+                        </div>
+
+                        <div class="wrapper">
+                            <label _msttexthash="75504" _msthash="5">Telefon</label>
+                            <br/>
+                            <input id="telefon" type="text" placeholder="603 417 895" _mstplaceholder="51168" _msthash="4">
+                        </div>
+    
+                    </div>
+
+                    <div class="alone" > 
+                        <input id="submit" type="submit" value="uložit">
+                    </div>
+
+                </form>  
+
+            </section>
+
+        </article>
+
+        <footer>
+            Vytvořil &copy;Pavel Hoda 2023 pro <a href="https://itnetwork.cz">itnetwork.cz</a>
+        </footer>
+
+            <script src="js/Pojistenec.js"></script>
+            <script src="js/Zaznam.js"></script>
+            <script src="js/obsluha.js"></script>
+
+    </body>
+</html>
